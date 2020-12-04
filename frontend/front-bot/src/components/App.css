@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background: url(../images/background-shape.svg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  overflow: hidden;
+}
+
+.request-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.request-area > span {
+  margin: 10px;
+}
+
+.newsbox-wrapper {
+  display: flex;
+  justify-content: center;
+}

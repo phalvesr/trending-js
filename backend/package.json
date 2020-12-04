@@ -1,0 +1,14 @@
+{
+  "name": "bot-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "puppeteer": "^5.2.1",
+    "readline-sync": "^1.4.10"
+  }
+}

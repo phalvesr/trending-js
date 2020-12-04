@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  max-height: 100px;
+  background: #FF9838;
+}
+
+.content-wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.newspaper {
+  height: 6vh;
+  width: auto;
+  max-height: 40px;
+  margin-left: 5vw;
+  margin-right: .5vw;
+}
+
+.page-title {
+  font-size: 36;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;;
+}

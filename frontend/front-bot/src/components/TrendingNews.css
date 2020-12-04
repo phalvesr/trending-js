@@ -1,0 +1,28 @@
+.news-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 1rem;
+}
+
+.news-text-info {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+
+span {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(243, 131, 3);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(243, 131, 3);
+}

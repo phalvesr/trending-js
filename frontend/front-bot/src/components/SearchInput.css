@@ -1,0 +1,21 @@
+.select-field {
+  padding: 0;
+  min-width: 15%;
+  max-width: 100px;
+  height: 45px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(../images/arrow-down-select.svg);
+  background-position: right;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  height: 35px;
+  background-color: white;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+.select-field:focus {
+  outline: none;
+}

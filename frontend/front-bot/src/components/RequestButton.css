@@ -1,0 +1,23 @@
+.request {
+  appearance: none;
+  background: #40C13C;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  height: 30px;
+  max-width: 100px;
+  min-width: 100px;
+  text-align: center;
+  transition: 300ms;
+}
+
+.request:focus {
+  outline: none;
+}
+
+.request:hover {
+  transform: scale(.98);
+  transition: 300ms;
+}
