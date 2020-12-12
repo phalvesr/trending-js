@@ -6,7 +6,7 @@ function getNames(dataArray, size = 5) {
     size = 10;
   }
   const names = [];
-  dataArray.forEach(element => {[]
+  dataArray.forEach(element => {
     if(names.length >= size) return;
     names.push(element.name);
   });
